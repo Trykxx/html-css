@@ -1,17 +1,33 @@
+body{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+
+
+
+
 h1 {
     color: blue;
+    font-weight: normal;
+}
+
+h1:hover{
+    color: pink;
 }
 
 h2{
     color: green;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .h2-grey{
     color: grey;
 }
 
-ol{
-    color: pink;
+.h2-non-souligne{
+    text-decoration: none;
 }
 
 p{
@@ -20,10 +36,12 @@ p{
 
 .p-cl-purple{
     color: purple;
+    
 }
 
-
-
+ol{
+    color: pink;
+}
 
 .txt-cl-blue{
     color: blue;
@@ -32,4 +50,17 @@ p{
 .txt-cl-blue-it{
     font-style: italic;
     color: blue;
+}
+
+.ul-non-centre{
+    text-align: center;
+    list-style: none;
+}
+
+.txt-maj{
+    text-transform: uppercase;
+}
+
+.txt-droite{
+    text-align: right;
 }
