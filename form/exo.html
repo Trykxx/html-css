@@ -14,17 +14,18 @@
 </head>
 <body>
     <h1>Exercice</h1>
-
+    
+    <form>
     <table>
-        <thead>
+        
             <caption>Nouvel exercice</caption>
-
+            
             <div>
                 <tr>
                     <td><label for="pseudo">Pseudo</label>
                     </td>
                     <td>
-                        <input type="text" id="pseudo" />
+                        <input type="text" id="pseudo" required autofocus/>
                     </td>
                 </tr>
                 
@@ -32,10 +33,10 @@
                     <td><label for="password">password</label></td>
                     <td><input type="password" id="password" /></td>
                 </tr>
-
+                
                 <tr>
                     <td><label for="email">email</label></td>
-                    <td><input type="text" id="text" /></td>
+                    <td><input type="email" id="email" required /></td>
                 </tr>
                 
                 <tr>
@@ -57,23 +58,23 @@
 
                 <tr>
                     <td>
-                            <label for="comment">commentaire</label>
+                        <label for="comment">Dites nous en plus sur vous</label>
                     </td>
                     <td>
-                            <textarea id="comment"></textarea>
+                        <textarea id="comment"></textarea>
                     </td>
                 </tr>
-
+                
                 <tr>
                     <td><span>sexe</span></td>
                     <td>
                         <label for="men">homme</label>
-                    <input type="radio" id="men" value="1" name="sex" />
-                    <label for="women">femme</label>
-                    <input type="radio" id="women" value="0" name="sex" />
+                        <input type="radio" id="men" value="homme" name="sex" />
+                        <label for="women">femme</label>
+                        <input type="radio" id="women" value="femme" name="sex" />
                     </td>
                 </tr>
-
+                
                 <tr>
                     <td><span>sport pratiqué</span></td>
                     <td>
@@ -83,7 +84,7 @@
                         <input type="checkbox" id="tennis" value="tennis" />
                     </td>
                 </tr>
-
+                
                 <tr>
                     <td>
                         <label for="download">Télecharger</label>
@@ -92,31 +93,42 @@
                         <input type="file" id="download">
                     </td>
                 </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Envoyer" />
+                        <input type="reset" value="Effacer" />
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+    </html>
                         
-
-
-
-
-
-
-
-
-
-                        
-
-                        
+                    
+                    
                 
                 
                 
                 
-                
-                
-                
-            </thead>
-            
-
         
-       
-    </table>
-</body>
-</html>
+
+    
+   
+                
+                
+                
+                
+                
+                
+                        
+                
+                
+                
+                
+                
+                
+                
+                
+                
