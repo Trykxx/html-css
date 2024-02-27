@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+.h2-grey{
+    color: grey;
+}
+
+ol{
+    color: pink;
+}
+
+p{
+    color: orange;
+}
+
+.p-cl-purple{
+    color: purple;
+}
+
+
+
+
+.txt-cl-blue{
+    color: blue;
+}
+
+.txt-cl-blue-it{
+    font-style: italic;
+    color: blue;
+}
