@@ -1,0 +1,70 @@
+/* * est le selecteur universel, il cible tous les éléments HTML */
+/* On opere un reset (on réinitialise les valeurs et comportements par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    /* La valeur par défaut d'un élément block est { display: block; } */
+    display: block;
+    
+    color: white;
+    
+    /* Permet de mettre une couleur de fond */
+    background-color: rgb(0, 255, 221);
+
+    /* Hauteur */
+    min-height: 300px;
+
+    /* Largeur */
+    width: 300px;
+/* 
+    margin sert a mettre de la marge exterieure, il y a plein de raccourcis 
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin: 60px 100px 75px 90px; 
+    margin: 200px;
+    margin: 40px auto; */
+
+    /* margin: auto permet de centrer un block dans la largeur */
+    /* margin: 50px auto;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding: 20px 50px 60px 70px;
+    padding: 30px 60px;
+    padding: 40px; */
+
+    border: 20px solid rgb(57, 250, 131);
+
+
+
+}
+
+h1{
+    background-color: green;
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: #eb5858;
+    margin:50px auto;
+    padding: 50px 20px;
+    /* La propriété dorder-radius avec la valeur 50% permet de faire des cercles */
+    border-radius: 50%;
+
+    /* { box-shadow: } permet de créer une ombre */
+    box-shadow: 5px 5px 25px #00000077;
+}

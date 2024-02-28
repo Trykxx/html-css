@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.about-us {
+    display: block;
+    /* background-color: blue; */
+    text-align: center;
+    min-height: 200px;
+    width: 90%;
+    padding: 20px 0;
+    margin: auto;
+    font-size: 14px;
+    
+}
+
+.about-us p {
+    margin-bottom: 10px;
+}
+
+.about-us a:hover{
+    color: rgb(170, 170, 144);
+}
+
+.about-us a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero{
+    background-image: url("/site-web/img/university-library-4825366_1280.jpg");
+    min-height: 200px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero strong {
+    text-transform: uppercase;
+}
+
+.hero a {
+    text-transform: uppercase;
+}
