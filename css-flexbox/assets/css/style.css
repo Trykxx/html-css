@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-   
-}
 
 .container {
     background-color: green;
@@ -21,7 +18,7 @@ body {
     /* row | column */
 
     /* La propriété { justify-content: ;} permet d'aligner dans le sens horizontal */
-    justify-content: center;
+    justify-content: space-between;
     /* flex-start | flex-end | center | space-between | space-around */
 
     /* La propriété { align-items: ;} permet d'aligner dans l'axe secondaire */
