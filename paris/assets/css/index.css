@@ -1,0 +1,99 @@
+.first-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    min-height: 600px;
+    text-align: center;
+    color: white;
+
+    background-color: #72b6ff;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), transparent), url(../img/tour-eiffel.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.first-text h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.first-text p{
+    font-style: italic;   
+}
+
+.explore{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    text-align: center;
+    min-height: 500px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.gallery img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+    gap: 50px;
+    display: flex;
+}
+
+.explore h2 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.up {
+    background-color: #72b6ff;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: red;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px
+        ;
+    }
+
+    nav {
+        
+        width: 100%;
+        justify-content: space-between;
+    
+        /* display: flex;
+        flex-direction: column; */
+    }
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
